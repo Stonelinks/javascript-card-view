@@ -1,0 +1,102 @@
+{
+    "object": "list",
+    "data": [
+        {
+            "id": "f6e2e314-ed55-4c1c-bd50-59a3ad2223cb",
+            "name": "Coal Mine",
+            "created_at": "2015-07-22T06:15:46.904Z",
+            "created_by_user": {
+                "id": "0029b7a2-ddb1-415c-93f4-71f1c33880c5",
+                "name": "Lucas Doyle",
+                "email": "ldoyle@airware.com",
+                "default_project": "55034aa0-1d34-402b-9d41-a316f58982b2",
+                "created_at": "2015-07-20T21:35:09.707Z",
+                "updated_at": "2015-07-20T21:35:09.707Z"
+            },
+            "geofence": {
+                "thumbnail": "/img/1.jpg"
+            }
+        },
+        {
+            "id": "9e372234-0ce5-46d4-81e5-4cd223032c89",
+            "name": "Triangle",
+            "created_at": "2015-07-22T06:14:03.559Z",
+            "created_by_user": {
+                "id": "0029b7a2-ddb1-415c-93f4-71f1c33880c5",
+                "name": "Lucas Doyle",
+                "email": "ldoyle@airware.com",
+                "default_project": "55034aa0-1d34-402b-9d41-a316f58982b2",
+                "created_at": "2015-07-20T21:35:09.707Z",
+                "updated_at": "2015-07-20T21:35:09.707Z"
+            },
+            "geofence": {
+                "thumbnail": "/img/2.jpg"
+            }
+        },
+        {
+            "id": "c410ac3d-6ed7-4b04-bd1d-7f50e6306367",
+            "name": "Does anybody read these anyway",
+            "created_at": "2015-07-22T06:13:06.858Z",
+            "created_by_user": {
+                "id": "0029b7a2-ddb1-415c-93f4-71f1c33880c5",
+                "name": "Lucas Doyle",
+                "email": "ldoyle@airware.com",
+                "default_project": "55034aa0-1d34-402b-9d41-a316f58982b2",
+                "created_at": "2015-07-20T21:35:09.707Z",
+                "updated_at": "2015-07-20T21:35:09.707Z"
+            },
+            "geofence": {
+                "thumbnail": "/img/3.jpg"
+            }
+        },
+        {
+            "id": "42453d8e-03d5-4a04-8b80-d23504b686fe",
+            "name": "Field",
+            "created_at": "2015-07-22T06:12:38.281Z",
+            "created_by_user": {
+                "id": "0029b7a2-ddb1-415c-93f4-71f1c33880c5",
+                "name": "Lucas Doyle",
+                "email": "ldoyle@airware.com",
+                "default_project": "55034aa0-1d34-402b-9d41-a316f58982b2",
+                "created_at": "2015-07-20T21:35:09.707Z",
+                "updated_at": "2015-07-20T21:35:09.707Z"
+            },
+            "geofence": {
+                "thumbnail": "/img/4.jpg"
+            }
+        },
+        {
+            "id": "5444d2ed-a34a-43b8-8c43-08392399cd91",
+            "name": "Survey 2",
+            "created_at": "2015-07-22T06:08:41.892Z",
+            "created_by_user": {
+                "id": "0029b7a2-ddb1-415c-93f4-71f1c33880c5",
+                "name": "Lucas Doyle",
+                "email": "ldoyle@airware.com",
+                "default_project": "55034aa0-1d34-402b-9d41-a316f58982b2",
+                "created_at": "2015-07-20T21:35:09.707Z",
+                "updated_at": "2015-07-20T21:35:09.707Z"
+            },
+            "geofence": {
+                "thumbnail": "/img/5.jpg"
+            }
+        },
+        {
+            "id": "e08dd88e-23b9-49c1-8525-1c77b2cb5cd0",
+            "name": "Survey 1",
+            "created_at": "2015-07-22T06:08:08.573Z",
+            "created_by_user": {
+                "id": "0029b7a2-ddb1-415c-93f4-71f1c33880c5",
+                "name": "Lucas Doyle",
+                "email": "ldoyle@airware.com",
+                "default_project": "55034aa0-1d34-402b-9d41-a316f58982b2",
+                "created_at": "2015-07-20T21:35:09.707Z",
+                "updated_at": "2015-07-20T21:35:09.707Z"
+            },
+            "geofence": {
+                "thumbnail": "/img/6.jpg"
+            }
+        }
+    ],
+    "pagination": {}
+}

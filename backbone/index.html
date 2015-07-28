@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Airware</title>
+
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="header clearfix">
+        <nav id="job-view-switcher-anchor"></nav>
+        <span class="aw-logo">
+            <img src="/img/aw-logo.gif">
+        </span>
+    </div>
+
+    <div class="row" id="job-list-anchor"></div>
+</div>
+
+<script id="job-table-row-head" type="text/html">
+    <th>Job Name</th>
+    <th>Creator</th>
+    <th>Last Modified</th>
+</script>
+
+<script id="job-table-row" type="text/html">
+    <td><%= name %></td>
+    <td><%= created_by_user.name %></td>
+    <td><%= moment(created_at).fromNow() %></td>
+</script>
+
+<script id="job-view-switcher" type="text/html">
+    <ul class="nav nav-pills pull-right">
+        <li class="switch-to-list-view">
+            <a href="javascript:void(0)">
+                <span class="glyphicon glyphicon-th-list"></span>
+            </a>
+        </li>
+        <li class="switch-to-card-view">
+            <a href="javascript:void(0)">
+                <span class="glyphicon glyphicon-th-large"></span>
+            </a>
+        </li>
+    </ul>
+</script>
+
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/underscore/underscore-min.js"></script>
+<script src="/bower_components/backbone/backbone-min.js"></script>
+<script src="/bower_components/moment/moment.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

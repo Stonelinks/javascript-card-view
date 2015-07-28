@@ -1,0 +1,22 @@
+{
+  "name": "geofence-card-view",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Stonelinks/geofence-card-view",
+  "authors": [
+    "Lucas Doyle <ldoyle@airware.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.13.3",
+    "backbone": "~1.2.1",
+    "bootstrap": "~3.3.5",
+    "moment": "~2.10.5"
+  }
+}

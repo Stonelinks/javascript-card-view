@@ -1,0 +1,38 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        margin-bottom: 30px;
+    }
+}
+
+.container > .row {
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.aw-logo {
+    max-width: 144px;
+    max-height: 60px;
+    display: inline;
+}
